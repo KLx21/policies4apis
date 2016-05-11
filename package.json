@@ -1,38 +1,38 @@
 {
-  "name": "mrhorse",
-  "version": "2.0.0",
-  "description": "Apply policies to Hapi routes",
-  "main": "lib/index",
-  "scripts": {
-    "test": "lab -a code -t 100 -L"
-  },
-  "engines": {
-    "node": ">=4.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:mark-bradshaw/mrhorse.git"
-  },
-  "keywords": [
-    "hapi",
-    "policy"
-  ],
-  "author": "Mark Bradshaw <mark.bradshaw@gmail.com>, contributors",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mark-bradshaw/mrhorse/issues"
-  },
-  "homepage": "https://github.com/mark-bradshaw/mrhorse",
-  "dependencies": {
-    "boom": "3.1.x",
-    "hoek": "3.0.x",
-    "items": "2.0.x",
-    "lodash": "4.6.x"
-  },
-  "devDependencies": {
-    "code": "2.1.x",
-    "hapi": "13.x.x",
-    "lab": "10.3.x",
-    "wreck": "7.0.x"
-  }
+    "name": "policies4hapi",
+    "version": "1.0.0",
+    "description": "Apply policies to Hapi routes",
+    "main": "lib/index",
+    "scripts": {
+        "test": "lab -a code -t 100 -L"
+    },
+    "engines": {
+        "node": ">=4.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KLx21/policies4hapi.git"
+    },
+    "keywords": [
+        "hapi",
+        "policy"
+    ],
+    "author": "Mark Bradshaw <mark.bradshaw@gmail.com>, contributors",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/KLx21/policies4hapi/issues"
+    },
+    "homepage": "https://github.com/KLx21/policies4hapi",
+    "dependencies": {
+        "boom": "3.x.x",
+        "hoek": "3.x.x",
+        "items": "2.x.x",
+        "lodash": "4.x.x"
+    },
+    "devDependencies": {
+        "code": "2.x.x",
+        "hapi": "13.x.x",
+        "lab": "10.x.x",
+        "wreck": "7.x.x"
+    }
 }
